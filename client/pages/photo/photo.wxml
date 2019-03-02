@@ -1,0 +1,5 @@
+<!--client/pages/photo/photo.wxml-->
+<text>client/pages/photo/photo.wxml</text>
+<view> 
+  <image wx:for="{{photoData}}" class="img" src="{{item}}" data-src="{{item}}" alt="" bindtap="doDownLoad"></image>
+</view>
